@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local secrets and private capture/session data
+.env.*
+!.env.example
+credentials*.json
+recordings/
+captures/
+LiveSessions/
+StoryOutputs/
+.DS_Store
